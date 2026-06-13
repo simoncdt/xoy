@@ -25,15 +25,15 @@ const partners = [
   {
     name: "Fondation Blaise Diagne",
     desc: {
-      fr: "Fondation partenaire engagée dans le soutien à l'entrepreneuriat et au leadership des femmes africaines sur le continent et en diaspora.",
-      en: "Partner foundation committed to supporting African women's entrepreneurship and leadership on the continent and in the diaspora.",
+      fr: "La Fondation Blaise Diagne a pour mission de venir en aide aux enfants démunis, dont les rêves ont été bouleversés par des épreuves de la vie.",
+      en: "The Blaise Diagne Foundation's mission is to help underprivileged children whose dreams have been shattered by life's hardships.",
     },
   },
   {
     name: "R Magazine",
     desc: {
-      fr: "Média partenaire qui met en lumière les parcours des Shepreneures XOYAM et amplifie la voix des femmes entrepreneures afrodescendantes.",
-      en: "Media partner shining a light on XOYAM Shepreneures' journeys and amplifying the voices of Afrodescendant women entrepreneurs.",
+      fr: "Média partenaire qui met en lumière les parcours des SHEpreneures XOYAM et amplifie la voix des femmes entrepreneures afrodescendantes.",
+      en: "Media partner shining a light on XOYAM SHEpreneures' journeys and amplifying the voices of Afrodescendant women entrepreneurs.",
     },
   },
 ];
@@ -47,7 +47,7 @@ export function PartnersSection() {
           <div className="text-[0.7rem] font-medium uppercase tracking-[0.28em] text-muted-foreground">
             {t.home.partners}
           </div>
-          <p className="max-w-lg text-sm text-muted-foreground">
+          <p className="max-w-lg text-base text-muted-foreground">
             {t.home.affiliationsDesc}
           </p>
         </div>
@@ -57,7 +57,7 @@ export function PartnersSection() {
               key={p.name}
               className="flex flex-col gap-2 rounded-2xl border border-border bg-background p-5 transition-all hover:-translate-y-1 hover:shadow-elegant"
             >
-              <div className="font-display text-lg text-foreground">{p.name}</div>
+              <div className="font-display text-xl text-foreground">{p.name}</div>
               <p className="text-xs leading-relaxed text-muted-foreground">
                 {p.desc[lang]}
               </p>

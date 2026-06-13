@@ -10,7 +10,7 @@ export const Route = createFileRoute("/evenements")({
 const events = [
   {
     date: { d: "12", m: "JUN", y: "2026" },
-    title: "Salon Shepreneures — Dakar",
+    title: "Salon SHEpreneures — Dakar",
     place: "Dakar, Sénégal",
     type: "Salon · Rencontre",
     desc: "Une journée pour connecter cinquante porteuses de projets avec mentores et investisseurs.",

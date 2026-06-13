@@ -23,7 +23,7 @@ export function SectionHeader({ kicker, title, accent, lead, align = "left" }: P
           </span>
         ))}
         {accent && (
-          <span className="block italic text-gradient-brand">
+          <span className="block italic text-gradient-brand pb-2">
             {accent.split('\n').map((line, i) => (
               <span key={i} className="block">
                 {line}

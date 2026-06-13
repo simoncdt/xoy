@@ -25,7 +25,7 @@ const programs = [
   },
   {
     cat: "Mentorat",
-    title: "Programme Shepreneures",
+    title: "Programme SHEpreneures",
     desc: "Mentorat individuel avec des expertes, sessions de pairs, capsules vidéo.",
     level: "Femmes en lancement",
     cohort: "6 mois",

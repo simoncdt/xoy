@@ -11,7 +11,7 @@ export function JoinCta() {
         <div className="relative grid gap-10 lg:grid-cols-[1.5fr_1fr] lg:items-end">
           <div>
             <div className="text-[0.7rem] font-medium uppercase tracking-[0.28em] text-[color:var(--cream)]/80">
-              — Shepreneures · 1ère cohorte
+              — SHEpreneures · 1ère cohorte
             </div>
             <h3 className="mt-5 font-display text-4xl font-medium leading-[1.05] tracking-[-0.02em] sm:text-5xl lg:text-6xl">
               Rejoignez un cercle de femmes <em className="italic text-[color:var(--gold)]">qui bâtissent.</em>

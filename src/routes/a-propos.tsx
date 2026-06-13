@@ -148,7 +148,7 @@ function AboutPage() {
                 rel="noopener noreferrer"
                 className="mt-5 inline-flex items-center gap-1 text-sm font-medium text-[color:var(--magenta)] underline-offset-4 hover:underline"
               >
-                afrowomenworkshops.com →
+                
               </a>
             </div>
           </div>

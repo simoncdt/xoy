@@ -27,7 +27,7 @@ export function Hero() {
                 rel="noopener noreferrer"
                 className="font-medium text-[color:var(--magenta)] hover:underline underline-offset-2"
               >
-                afrowomenworkshops.com
+                Afro Women Workshops
               </a>
             </div>
 
@@ -105,7 +105,7 @@ export function Hero() {
         <div className="flex animate-marquee gap-12 whitespace-nowrap font-display text-2xl italic sm:text-3xl">
           {Array.from({ length: 2 }).map((_, i) => (
             <div key={i} className="flex items-center gap-12">
-              {["Souveraineté","Sororité","EdTech","Mentorat","Financement","Terre","Numérique"].map((w, j) => (
+              {["Souveraineté","Sororité","EdTech","Mentorat","Financement","Terre","Numérique","Agriculture","Import&Export"].map((w, j) => (
                 <span key={j} className="flex items-center gap-12">
                   <span className="text-[color:var(--cream)]">{w}</span>
                   <span aria-hidden className="h-2 w-2 shrink-0 rounded-full bg-[color:var(--magenta)]" />

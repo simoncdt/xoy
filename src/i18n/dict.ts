@@ -21,8 +21,8 @@ export const dict = {
       back: "Retour",
     },
     home: {
-      h1Pre: "Unies par la solidarité,",
-      h1Accent: "propulsées par l'innovation.",
+      h1Pre: "Unies \npar la solidarité,\n",
+      h1Accent: "propulsées \npar l'innovation.",
       lead: "XOYAM accompagne les femmes entrepreneures et créatives d'Afrique et des Caraïbes — de la souveraineté alimentaire à l'EdTech, du mentorat au financement.",
       ctaPrimary: "Découvrir nos programmes",
       ctaSecondary: "Rejoindre la communauté",
@@ -34,7 +34,7 @@ export const dict = {
       pillarsTitle: "Une organisation,\ncinq leviers d'autonomisation.",
       statsKicker: "Notre impact",
       testimonialsKicker: "Elles témoignent",
-      testimonialsTitle: "Ce que les Shepreneures disent.",
+      testimonialsTitle: "Ce que les SHEpreneures disent.",
       partners: "Affiliations & partenaires",
       affiliationsDesc: "Des liens tissés autour d'une vision commune : accompagner les femmes vers l'autonomie économique et sociale.",
       newsletterTitle: "Restez connectée à XOYAM",
@@ -61,7 +61,7 @@ export const dict = {
       {
         n: "04",
         title: "Réseau & Mentorat",
-        text: "Communauté Shepreneures, espaces membres, événements, mentorat entre pairs et expertes.",
+        text: "Communauté SHEpreneures, espaces membres, événements, mentorat entre pairs et expertes.",
       },
       {
         n: "05",
@@ -139,7 +139,7 @@ export const dict = {
       pillarsTitle: "One organisation, five levers for empowerment.",
       statsKicker: "Our impact",
       testimonialsKicker: "They speak",
-      testimonialsTitle: "What Shepreneures say.",
+      testimonialsTitle: "What SHEpreneures say.",
       partners: "Affiliations & partners",
       affiliationsDesc: "Partnerships built around a shared vision: supporting women toward economic and social empowerment.",
       newsletterTitle: "Stay close to XOYAM",
@@ -166,7 +166,7 @@ export const dict = {
       {
         n: "04",
         title: "Network & Mentorship",
-        text: "Shepreneures community, member spaces, events, peer and expert mentorship.",
+        text: "SHEpreneures community, member spaces, events, peer and expert mentorship.",
       },
       {
         n: "05",
