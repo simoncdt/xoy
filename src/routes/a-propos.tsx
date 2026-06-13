@@ -9,6 +9,7 @@ import photoMariama from "@/assets/mariama_dabo.jpg";
 import photoElisabeth from "@/assets/elisabeth_big.jpg";
 import photoTrioAbout from "@/assets/photo-trio-vrai.webp";
 import logoNoir from "@/assets/logo-noir.png";
+import tof from "@/assets/ny.jpeg";
 import { PhotoGallery } from "@/components/about/PhotoGallery";
 
 export const Route = createFileRoute("/a-propos")({
@@ -22,7 +23,7 @@ const founders = [
     role: "Co-fondatrice · Responsable XOYAM Sénégal",
     bio: "Pont entre la vision continentale et l'action locale, Élisabeth supervise la coordination des activités de la coopérative au Sénégal. Issue du secteur de la formation, elle développe et adapte les programmes XOYAM aux réalités socio-économiques locales, gère la communication, les équipes terrain, la formation des bénévoles, ainsi que les partenariats et levées de fonds.",
     initials: "EF",
-    photo: photoElisabeth,
+    photo: tof,
   },
   {
     name: "Angélique M. B. Diène",
